@@ -1,0 +1,121 @@
+/*FONTS*/
+
+h1 {font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:48px; }
+h2 {font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:36px; font-variant: small-caps;}
+h3  {font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:24px; font-variant: small-caps; font-weight: thin;}
+p {font-family:Arial, Helvetica, sans-serif; font-size:16px;}
+
+li {font-family:Georgia, 'Times New Roman', Times, serif; font-size:14px; font-variant: small-caps;}
+
+/*BUTTONS-*/
+
+button{
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+    font-size:14px; 
+    font-variant:small-caps; 
+    background-color: #FFFFFF; 
+    border: 2px solid #FEBB76;
+    padding: 8px 20px;
+    text-align:center;
+    border-radius: 12px;
+    color: #FA6B31;}
+
+button:hover {
+    background-color:#ffffff;
+    border:2px solid #FA6B31;  }
+
+/*NAVIGATION BAR*/
+
+ul {
+    list-style-type:none; 
+    margin:0; 
+    padding:0;}
+
+li{
+    float:right; 
+    padding:8px;}
+
+#name{
+    float:left;
+    width: 70%;
+    margin:8px;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-size:14px; 
+    font-variant: small-caps; }
+
+.navigation{float:top;
+    background-color: #ffffff;
+    border-bottom: 2px solid #FA6B31;
+    height: 25px;}
+
+/*HERO SECTION*/
+
+.heroimg{ height: 450px;   
+    margin-right:10px;
+    margin-top:25px;}
+
+.hero-left{
+    width: 48%; 
+    float: left; 
+    text-align:right; 
+    height:500px;}
+
+.hero-right{
+    height:500px;
+    width:48%;
+    float:left;
+    text-align: left;
+    margin-left:10px}
+
+.Hey {margin-top:150px;
+    border-bottom: 2px solid #FEEA80;}
+
+/*MY WORK SECTION*/
+
+.mywork{
+    text-align: center;
+     border-bottom: 2px solid #FA6B31; 
+     width:100%}
+
+.project-image{
+    display:block; 
+    height: 400px; 
+    float:left; 
+    margin-top:10px; 
+    margin-bottom:10px; 
+    margin-left:10px;   }
+
+.project-left {
+    display:block; 
+    float: left; 
+    width: 48%; 
+    text-align:right;
+    margin-top:100px;
+    margin-bottom:100px;
+    margin-right:10px; }
+
+.project-title {border-bottom: 1px solid #A9C89C;}
+
+.project-right {
+    float:left; 
+    width:48%;}
+
+
+/*FOOTER*/
+
+.footerul{
+    list-style-type:none; 
+    margin:0; 
+    padding:0; 
+    float:left;}
+
+.buttontop {
+    float:right; 
+    margin:8px;}
+
+.footer {
+    border-top: 2px solid #FA6B31;
+    height:50px;}
